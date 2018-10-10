@@ -1,9 +1,9 @@
 var myText = document.getElementById("myText");
 myText.innerHTML = "Your Text";   
 
-var budgetSales = 20000;
-var wages = 4000;
-var percentage = 20;
+var budgetSales = ;
+var wages = ;
+var percentage = ;
 
 
 if      (((wages / budgetSales) * 100) == percentage)  {
