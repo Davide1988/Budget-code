@@ -1,0 +1,15 @@
+var myText = document.getElementById("myText");
+myText.innerHTML = "Your Text";   
+
+var budgetSales = 20000;
+var wages = 4000;
+var percentage = 20;
+
+
+if      (((wages / budgetSales) * 100) == percentage)  {
+    myText.innerHTML = 'You are respecting budget';
+}
+else if (((wages / budgetSales) * 100) < percentage)  {
+    myText.innerHTML = 'You can still spend £' + (((percentage * budgetSales) / 100) - wages);
+}
+else {  myText.innerHTML = "Your wages are £" + ( wages - (percentage * budgetSales) / 100) + " over budget";
